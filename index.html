@@ -1,26 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Snake 2d</title>
-</head>
-<body>
-
-<div id="game">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="./src/assets/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+  <div id="game">
+    <noscript>
+      <strong>We're sorry, but it doesn't work
+        properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
     <div class="game-header">
-        <div class="game-score">
-            <p class="score-record">Record: 123</p>
-            <p class="score-count"></p>
-        </div>
+      <div class="game-score">
+        <p class="score-record">Record: 123</p>
+        <p class="score-count"></p>
+      </div>
     </div>
     <div class="canvas-wrapper">
-        <canvas id="game-canvas" width="320" height="400"></canvas>
+      <!-- built files will be auto-injected -->
     </div>
-</div>
-
-<script src="script.js"></script>
-</body>
+  </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
 </html>
