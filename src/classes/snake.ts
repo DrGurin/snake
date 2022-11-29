@@ -34,7 +34,6 @@ export default class Snake {
         this.maxTails = 3;
         this.head = { x: 0, y: 0 };
         this.neck = { x: 0, y: 0 };
-        console.log({head: this.head, neck: this.neck});
     }
 
     update( berry: BerryType, score:Score, canvasElement:HTMLCanvasElement | null ) {
